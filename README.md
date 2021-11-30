@@ -23,4 +23,4 @@
 
   #### 👩🏾‍💻 Projetos desenvolvidos:
 
-   O repositorio foi criado para guardar os arquivos desenvolvidos durante o [Cognizant Bootcamp | Dev Java da Digital Innovation One](https://web.dio.me/track/1b063c85-4d26-4645-8227-214b09b3296b).
+   O repositório foi criado para guardar os arquivos desenvolvidos durante o [Cognizant Bootcamp | Dev Java da Digital Innovation One](https://web.dio.me/track/1b063c85-4d26-4645-8227-214b09b3296b).
