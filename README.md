@@ -1,2 +1,1 @@
-# CognizantBootCamp
-Cognizant  |  Java Developer
+# <p align="center">  Cognizant Bootcamp | Java Developer  </p>
