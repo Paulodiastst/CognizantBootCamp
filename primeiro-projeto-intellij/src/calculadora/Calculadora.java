@@ -1,42 +1,25 @@
 package calculadora;
 
-import java.util.Scanner;
-
 public class Calculadora {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        int a, b;
-
-        System.out.println("Digite o primeiro valor: ");
-        a = sc.nextInt();
-        System.out.println("Digite o segundo valor: ");
-        b = sc.nextInt();
-
-        int somar = somar(a, b);
-        int subtrair = subtrair(a, b);
-        int multiplicar = multiplicar(a, b);
-        int dividir = dividir(a, b);
-
-        System.out.println("somar: " + somar);
-        System.out.println("subtrair: " + subtrair);
-        System.out.println("mult: " + multiplicar);
-        System.out.println("dividir: " + dividir);
+        public static void soma(double numero1, double numero2){
+            double resultado = numero1 + numero2;
+            System.out.println("A soma de " + numero1 + " mais " + numero2 + " é " + resultado);
     }
 
-    public static int somar(int a, int b){
-        return a + b;
-    }
+        public static void subtracao(double numero1, double numero2) {
+            double resultado = numero1 - numero2;
+            System.out.println("A subtração de " + numero1 + " mais " + numero2 + " é " + resultado);
+        }
 
-    public static int subtrair(int a, int b){
-        return a - b;
-    }
+        public static void multiplicacao(double numero1, double numero2) {
+            double resultado = numero1 * numero2;
+            System.out.println("A multiplicação de " + numero1 + " mais " + numero2 + " é " + resultado);
+        }
 
-    public static int multiplicar(int a, int b){
-        return a * b;
-    }
+        public static void divisao(double numero1, double numero2) {
+            double resultado = numero1 / numero2;
+            System.out.println("A divisão de " + numero1 + " mais " + numero2 + " é " + resultado);
+        }
 
-    public static int dividir(int a, int b){
-        return a / b;
-    }
 }
